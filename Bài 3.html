@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let x = parseInt(prompt("nhập số nguyên"));
+    let arr =[];
+    let sum = 0;
+    function sumOfListPrime(x){
+    for(i=0;i<=x;i++){
+    arr += i;
+  }
+      for(j=0;j<arr.length;j++){
+     sum += parseInt(arr[j]);
+   }
+    return sum;
+  }
+    document.write(sumOfListPrime(x));
+
+
+</script>
+</body>
+</html>

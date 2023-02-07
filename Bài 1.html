@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let danhsach = [5,6,7,8,9,10];
+    let sum = 0;
+    let trungbinh;
+   function findAvg(danhsach) {
+       for (i=0; i < danhsach.length; i++) {
+           sum += danhsach[i]
+       }
+       trungbinh = sum / danhsach.length;
+       return trungbinh;
+   }
+   alert(findAvg(danhsach));
+</script>
+</body>
+</html>
